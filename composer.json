@@ -1,0 +1,36 @@
+{
+    "name": "lag/location-iq",
+    "description": "Client for LocationIQ API with some geocoding features from jsor/geokit",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "geokit/geokit": "dev-master",
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/cache": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "johnkrovitch",
+            "email": "arnaudfrezet@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "johnkrovitch/test-pack": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LAG\\GeoLocation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LAG\\GeoLocation\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin",
+        "sort-packages": true
+    }
+}
