@@ -1,5 +1,5 @@
 {
-    "name": "lag/location-iq",
+    "name": "lag/geolocation",
     "description": "Client for LocationIQ API with some geocoding features from jsor/geokit",
     "type": "library",
     "require": {
